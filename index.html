@@ -1,37 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="./style.css" />
+
   <title>Frontend Mentor | Order summary card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
+  <div class="box centered-container">
 
-  Order Summary
+    <div class="box card-container">
+      <div class="card-header"></div>
+      <div class="box card-content">
+        <h1 class="bold">Order Summary</h1>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+        <h2 class="light">
+          You can now listen to millions of songs, audiobooks, and
+          podcasts on any device anywhere you like!
+        </h2>
 
-  Annual Plan
-  $59.99/year
+        <div class="row order-detail">
+          <div class="order-section">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+              <g fill="none" fill-rule="evenodd">
+                <circle cx="24" cy="24" r="24" fill="#DFE6FB" />
+                <path fill="#717FA6" fill-rule="nonzero"
+                  d="M32.574 15.198a.81.81 0 00-.646-.19L20.581 16.63a.81.81 0 00-.696.803V26.934a3.232 3.232 0 00-1.632-.44A3.257 3.257 0 0015 29.747 3.257 3.257 0 0018.253 33a3.257 3.257 0 003.253-3.253v-8.37l9.726-1.39v5.327a3.232 3.232 0 00-1.631-.441 3.257 3.257 0 00-3.254 3.253 3.257 3.257 0 003.254 3.253 3.257 3.257 0 003.253-3.253V15.81a.81.81 0 00-.28-.613z" />
+              </g>
+            </svg>
+          </div>
 
-  Change
+          <div class="box order-section">
+            <h2 class="bold">Annual Plan</h2>
+            <h2 class="light">$59.99/year</h2>
+          </div>
 
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+          <div class="order-section" id="change">
+            <button class="btn-a bold">Change</button>
+          </div>
+
+        </div>
+
+        <button class="btn-submit bold">Proceed to Payment</button>
+        <button class="btn-cancel bold">Cancel Order</button>
+      </div>
+
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+      <a href="https://www.frontendmentor.io/profile/faisalridwan55" target="_blank">Faisal Ridwan</a>.
+    </div>
+
   </div>
 </body>
+
 </html>
