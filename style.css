@@ -115,11 +115,13 @@ a:hover, .btn-a:hover {
 }
 
 .card-container {
-    width: 450px;
+    margin: 1.5rem;
+    min-width: 320px;
+    max-width: 450px;
 }
 
 .card-header {
-    min-width: 100%;
+    width: 100%;
     min-height: 220px;
     background-repeat: no-repeat;
     border-top-left-radius: 12px;
