@@ -15,8 +15,8 @@
 /* colors */
 :root {
     /* primary */
-    --pale-blue: hsla(225, 100%, 94%, 0.959);
     --bright-blue: hsl(245, 75%, 52%);
+    --pale-blue: hsla(225, 100%, 94%, 0.959);
     /* neutral */
     --dark-blue: hsl(223, 47%, 23%);
     --very-pale-blue: hsl(225, 100%, 98%);
