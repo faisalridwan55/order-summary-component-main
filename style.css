@@ -29,7 +29,7 @@ body {
 }
 
 body {
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-color: var(--pale-blue);
     background-image: url(./images/pattern-background-mobile.svg);
 }
